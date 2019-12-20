@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Futura";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 70px;
+}
+
+.navbar {
+    background-color: lime;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar {
+    grid-row: 2/4;
+}
+
+.sidebar div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(49, 179, 49);
+    transition: all .3s
+}
+
+.sidebar div:hover {
+    cursor:pointer;
+    color: white;
+    background-color: lime;
+}
+
+.main {
+    background-image: url("http://skyboundbordercollies.webs.com/Neo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: lime;
+}

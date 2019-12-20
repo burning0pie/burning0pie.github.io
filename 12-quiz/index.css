@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "sans-serif";
+}
+
+html, body, .game{
+    height: 100%;
+}
+.question-section{
+    background-color: rgb(87, 87, 87);
+    height: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.question{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.options-section{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.options-section div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+}
+
+.options-section div:hover{
+    font-weight: bold;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.option-1 {
+    background-color: red
+}
+.option-2 {
+    background-color: blue
+}
+.option-3 {
+    background-color: rgb(206, 177, 12)
+}
+.option-4 {
+    background-color: green
+}

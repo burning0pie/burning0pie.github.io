@@ -1,0 +1,95 @@
+.content {
+    background-color: aliceblue;
+    width: 800px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid {
+    color: white;
+    background: purple;
+    width: 80px;
+    height: 80px;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+.flexbox {
+    color: white;
+    background: blue;
+    width: 80px;
+    height: 80px;
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+}
+
+.responsive-design {
+    color: white;
+    background: limegreen;
+    width: 80px;
+    height: 80px;
+    grid-column: 5 / 6;
+    grid-row: 4 / 7;
+}
+
+.justify-content {
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
+}
+
+.flex-wrap {
+    grid-column: 8 / 9;
+    grid-row: 1 / 2;
+}
+
+.flex-container {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+.flex-item {
+    grid-column: 7 / 8;
+    grid-row: 2 / 3;
+}
+
+.flex-direction {
+    grid-column: 8 / 9;
+    grid-row: 2 / 3;
+}
+
+.align-items {
+    grid-column: 7 / 8;
+    grid-row: 3 / 4;
+}
+
+.image-resizing {
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+}
+
+.media-query {
+    grid-column: 5 / 6; 
+    grid-row: 5 / 6;
+}
+
+.flex-content {
+    grid-column: 6 / 7; 
+    grid-row: 1 / 2;
+}
+
+.grid-container {
+    grid-column: 1 / 2; 
+    grid-row: 4 / 5;
+}
+
+.grid-items {
+    grid-column: 2 / 3; 
+    grid-row: 4 / 5;
+}
+
+.grid-template-columns {
+    grid-column: 2 / 3; 
+    grid-row: 5 / 6;
+}

@@ -1,0 +1,83 @@
+* {
+    background-color: black;
+    color: darkturquoise;
+}
+
+
+
+.content {
+    background-color: aliceblue;
+    color: darkturquoise;
+    width: 800px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.A2 {
+    color: white;
+    background: red;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1; */
+}
+
+.A {
+    color: white;
+    background: orange;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 2 / 1;
+    grid-row: 1 / 1; */
+}
+
+.B {
+    color: rgb(187, 156, 156);
+    background: yellow;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 3 / 1;
+    grid-row: 1 / 1; */
+}
+
+.C {
+    color: white;
+    background: lightblue;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 4 / 1;
+    grid-row: 1 / 1; */
+}
+
+.D {
+    color: white;
+    background: Blue;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 5 / 1;
+    grid-row: 1 / 1; */
+}
+
+.E {
+    color: white;
+    background: purple;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 6 / 1;
+    grid-row: 6 / 6; */
+}
+
+.F {
+    color: white;
+    background: darkorchid;
+    /* width: 100px;
+    height: 100px;
+    grid-column: 7 / 1;
+    grid-row: 7 / 7; */
+}
+
+.answer {
+    color: rgb(12, 185, 185);
+}

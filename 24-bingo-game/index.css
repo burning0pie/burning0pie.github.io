@@ -1,0 +1,29 @@
+.content {
+    background-color: darkturquoise;
+    width: 750px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+* {
+    background-color: black;
+    color: darkturquoise;
+    border-color: darkturquoise;
+}
+
+.input {
+    width: 150px;
+    height: 110px;
+    background-color: black;
+    border-color: darkturquoise;
+    color: darkturquoise;
+}
+
+.cell {
+    width: 150px;
+    background-color: black;
+    border: black;
+    color: darkturquoise;
+}
